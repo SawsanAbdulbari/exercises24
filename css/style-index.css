@@ -1,0 +1,52 @@
+/* Exercise 6 bootstrap navbar with css styling*/
+
+body{
+    margin: auto;
+    width: 95%;
+}
+
+.navbar{
+    font-weight: bold;
+    font-size: larger;
+    width: 30%; 
+    margin: auto;
+    background-color:#fdb92e;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#navbarToggleExternalContent{
+    background-color: #343a40; 
+    padding-top: 20px;
+    border-radius: 0 0 15px 15px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+#navbarToggleExternalContent a.nav-link {
+    color: #ffffff;
+}
+
+#navbarToggleExternalContent a.nav-link:hover {
+    color: #fdb92e;
+}
+
+.navbar-toggler {
+    margin: 0 auto; 
+    display: block;
+}
+
+.navbar-toggler-icon {
+    background-color: #fdb92e; 
+}
+
+.content{
+    width: 70%; 
+    margin: auto;
+    background-color:#FDDE9A; 
+    margin-top: 70px;
+    padding: 4%;
+    border-radius: 20px;
+    text-align: center;
+}

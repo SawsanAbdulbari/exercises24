@@ -1,0 +1,119 @@
+/* Exercise 5 css styling, flexbox and responsivenes*/
+
+body{
+    background-color:#ffffff;
+    margin: 5%;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-color: #FDDE9A;
+    width: 100%;
+    border-radius: 30px;    padding: 2%;
+    margin-bottom: 3%;
+}
+
+header h1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+header p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+    text-align: center;
+}
+
+section{
+    padding-bottom: 10%;
+    margin: 0 auto;
+}
+
+.flex-divided{
+    background-color: #fdb92e;
+    display: flex;
+    border-radius: 30px;
+    padding: 5%;
+}
+
+#sidebar{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 5%;
+    flex: 1;
+}
+
+#sidebar nav ul{
+    text-align: left;
+    flex-direction: column;
+    list-style: none;
+}
+
+#sidebar nav ul li{
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+}
+
+#main{
+    padding-left: 5%;
+    display: inline-flex;
+    flex-direction: column;
+    flex: 2 auto;
+    justify-content: stretch;
+}
+
+article{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 5%;
+}
+
+.recent-posts{
+    padding-top: 10%;
+    width: fit-content; 
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+.table{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.table col{
+    font-weight: bold;
+}
+
+.table td {
+    background-color: #fdb82e7d;
+}
+
+.table th{
+    background-color: #fdb92e;
+}
+
+form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.btn{
+    margin-top: 2%;
+    background-color: #fdb92e;
+    border-color: #fdb92e;
+    color: black;
+    font-weight: bold;
+}
+
+#main-footer{
+    text-align: center;
+    
+}

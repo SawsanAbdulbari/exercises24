@@ -1,117 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
     <meta name="author" content="Sawsan Abdulbari">
-    <meta name="description" content="scikit-learn Blog. News and updates from the scikit-learn community. Open source library for machine learning in Python.">
-
-    <title> HTML5 & GitHub Pages - Exercise 2</title>
-
+    <meta name="description"
+        content="scikit-learn Blog. News and updates from the scikit-learn community. Open source library for machine learning in Python.">
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="../css/style-123.css">
+    <title> Adding More Elements - Exercise 3</title>
+    <!--  Exercise 3: Validation & Adding More Elements -->
 </head>
+
 <body>
     <header>
-        <p>
-            <img src="../images/scikit-learn-logo.png" title="scikit learn logo" alt="logo with blue and orange ellipses with scikit learn text displayed on orange one" width="244" height="151" style="float:right; margin-left: 10px;">
-        </p>
-        <h4>The copyright for the articles, images, and videos on this website belongs to the scikit-learn blog.</h4>
-            <a href="https://blog.scikit-learn.org/funding/nvidia-is-a-new-sponsor/" target="_blank"> Click here to visit Original scikit learn website. This website page was used for educational purposes.</a>
-        <h3>Open source library for machine learning in Python.</h3>
-
+        <a href="#" class="logo">
+            <img src="../images/scikit-learn-logo.png" title="scikit learn logo"
+                alt="logo with blue and orange ellipses with scikit learn text displayed on orange one" width="244"
+                height="151" style="float:right; margin-left: 10px;">
+        </a>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a href="https://scikit-learn.org">scikit-learn.org</a></li>
+                <li><a href="#">Calendar</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Sprints</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li>scikit-learn.org</li>
-            <li>Calendar</li>
-            <li>Resources</li>
-            <li>Sprints</li>
-            <li>More</li>
-        </ul>
-    </nav>
-    
     <h3><a href="#sponsored_blog_post">Sponsored blog post</a></h3>
-    
     <main>
         <article>
             <h1>NVIDIA Is A New Sponsor Of The Scikit-Learn consortium at the Inria Foundation</h1>
-
-            <img src="../images/NVIDIAxsklearn.jpg" title="nvidia & scikit learn logos" alt="logo for scikit learn as blue and orange ellipses with scikit learn text displayed on orange one and nvidia logo as half white half gren swirly eye on half white half green background and nvidia text displayed below, logos are divided by a light pink, blue and green gradient x." width="640" height="360" style="margin-left: 200px;">
-            
-    <div>
-        <p>Published on November 14, 2023 | 2 minute read</p>
-    </div>
-    
-    <section>
-        <h3 id="sponsored_blog_post"><em>Sponsored blog post</em></h3>
-            <p>
-                We are thrilled to announce that <u>NVIDIA</u> has joined the <u>scikit-learn consortium</u> as a corporate partner. As a leading provider of GPU-accelerated computing solutions, we at NVIDIA recognize the importance of machine learning and the role it plays in the growth of many industries and areas of science. Our partnership with the scikit-learn consortium demonstrates our commitment to supporting the development and advancement of <em>open-source</em> software in the machine learning community.
-            </p>
+            <img src="../images/NVIDIAxsklearn.jpg" id="image" title="nvidia & scikit learn logos"
+                alt="logo for scikit learn as blue and orange ellipses with scikit learn text displayed on orange one and nvidia logo as half white half gren swirly eye on half white half green background and nvidia text displayed below, logos are divided by a light pink, blue and green gradient x."
+                width="640" height="360">
+            <div>
+                <p>Published on November 14, 2023 | 2 minute read</p>
+            </div>
             <section>
-                <h4>NVIDIA and scikit-learn Partnership</h4>
-                <video width="640" height="360" controls>
-                    <source src="../images/NVIDIAxsklearnVid.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <h3 id="sponsored_blog_post"><em>Sponsored blog post</em></h3>
+                <p>
+                    We are thrilled to announce that <u>NVIDIA</u> has joined the <u>scikit-learn consortium</u> as
+                    a corporate partner. As a leading provider of GPU-accelerated computing solutions, we at NVIDIA
+                    recognize the importance of machine learning and the role it plays in the growth of many
+                    industries and areas of science. Our partnership with the scikit-learn consortium demonstrates
+                    our commitment to supporting the development and advancement of <em>open-source</em> software in
+                    the machine learning community.
+                </p>
+                <section>
+                    <h4>NVIDIA and scikit-learn Partnership</h4>
+                    <video controls width="600" height="400">
+                        <source src="../images/NVIDIAxsklearnVid.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </section>
+                <p>
+                    <a href="https://scikit-learn.org/stable/">Scikit-learn</a>
+                    is a popular open-source Python library for machine learning. One of the strengths of
+                    scikit-learn is its ease of use and well-defined API. This makes it a favorite tool among data
+                    scientists and machine learning practitioners. Thanks to its active community and continuous
+                    development, scikit-learn is constantly evolving and improving.
+                </p>
+                <p>
+                    At NVIDIA, we believe that investing in open-source projects like scikit-learn is important.
+                    Afterall, it is a central component of the modern data stack in both science and industry. By
+                    financially supporting the scikit-learn consortium, we are contributing to the long-term
+                    sustainability of scikit-learn and helping to ensure that it remains an easy to use, reliable
+                    and valuable tool for years to come. Furthermore, we hope to help advance the project&apos;s
+                    development, improve its performance, and enhance its capabilities for machine learning on GPUs.
+                </p>
+                <section id="blockq">
+                    <h4>Highlights from the article</h4>
+                    <blockquote cite="https://blog.scikit-learn.org/funding/nvidia-is-a-new-sponsor/">
+                        <p><em> <strong> “NVIDIA&apos;s collaboration with the scikit-learn consortium marks a
+                                    significant milestone in the intersection of GPU-accelerated computing and
+                                    open-source machine learning. As a leading provider of GPU solutions,
+                                    NVIDIA&apos;s commitment underscores the importance of supporting open-source
+                                    initiatives like scikit-learn. This partnership not only provides financial
+                                    backing but also demonstrates a dedication to advancing the capabilities of the
+                                    popular Python library. With the hiring of open-source expert Tim Head, NVIDIA
+                                    solidifies its commitment to the long-term sustainability and growth of
+                                    scikit-learn.”</strong></em>
+                        </p>
+                        <footer>Source: <a href="https://blog.scikit-learn.org/funding/nvidia-is-a-new-sponsor/"
+                                target="_blank">scikit-learn Blog</a></footer>
+                    </blockquote>
+                </section>
+                <p>
+                    Our partnership with the scikit-learn consortium will also enable us to collaborate more closely
+                    with the scikit-learn community, and provide us with insights into how we can improve
+                    NVIDIA&apos;s <u>RAPIDS open-source libraries</u> to better serve their needs. We are committed
+                    to working with the foundation to ensure that scikit-learn remains a powerful and easy to use
+                    machine learning library that meets the needs of data science practitioners in science and
+                    industry.
+                </p>
+                <p>
+                    NVIDIA&apos;s commitment to scikit-learn goes beyond financial support. We have hired <u>Tim
+                        Head</u>, an experienced open-source maintainer, to work full-time on the project. This is
+                    not Tim&apos;s first open-source rodeo. He has previously contributed to several high-profile
+                    open-source projects, including Project Jupyter. His focus will be reviewing pull requests and
+                    coordinating the development of large features. Tim was recently elected as a core maintainer of
+                    scikit-learn. His expertise and experience will be invaluable in ensuring the continued growth
+                    and success of the project.
+                </p>
+                <p>
+                    In summary, NVIDIA&apos;s partnership with the scikit-learn consortium is an important step in
+                    our ongoing commitment to support the development and growth of open-source software in the
+                    machine learning community. We are excited to work with the foundation and the community of
+                    contributors to help advance the capabilities of scikit-learn and accelerate the development of
+                    machine learning applications.
+                    <strong>AI helped write this blog post! </strong>
+                </p>
             </section>
-            <p>
-                <a href="https://scikit-learn.org/stable/">Scikit-learn</a>
-                 is a popular open-source Python library for machine learning. One of the strengths of scikit-learn is its ease of use and well-defined API. This makes it a favorite tool among data scientists and machine learning practitioners. Thanks to its active community and continuous development, scikit-learn is constantly evolving and improving.
-            </p>
-
-            <p>
-                At NVIDIA, we believe that investing in open-source projects like scikit-learn is important. Afterall, it is a central component of the modern data stack in both science and industry. By financially supporting the scikit-learn consortium, we are contributing to the long-term sustainability of scikit-learn and helping to ensure that it remains an easy to use, reliable and valuable tool for years to come. Furthermore, we hope to help advance the project&apos;s development, improve its performance, and enhance its capabilities for machine learning on GPUs.
-            </p>
-            <section>
-                <h4>Highlights from the article</h4>
-                <blockquote cite="https://blog.scikit-learn.org/funding/nvidia-is-a-new-sponsor/">
-                    <p><em> <strong> “NVIDIA&apos;s collaboration with the scikit-learn consortium marks a significant milestone in the intersection of GPU-accelerated computing and open-source machine learning. As a leading provider of GPU solutions, NVIDIA&apos;s commitment underscores the importance of supporting open-source initiatives like scikit-learn. This partnership not only provides financial backing but also demonstrates a dedication to advancing the capabilities of the popular Python library. With the hiring of open-source expert Tim Head, NVIDIA solidifies its commitment to the long-term sustainability and growth of scikit-learn.”</strong></em></p>
-                    <footer>Source: <a href="https://blog.scikit-learn.org/funding/nvidia-is-a-new-sponsor/" target="_blank">scikit-learn Blog</a></footer>
-                </blockquote>
-            </section>
-            <p>
-                Our partnership with the scikit-learn consortium will also enable us to collaborate more closely with the scikit-learn community, and provide us with insights into how we can improve NVIDIA&apos;s <u>RAPIDS open-source libraries</u>  to better serve their needs. We are committed to working with the foundation to ensure that scikit-learn remains a powerful and easy to use machine learning library that meets the needs of data science practitioners in science and industry.
-            </p>
-            
-            <p>
-                NVIDIA&apos;s commitment to scikit-learn goes beyond financial support. We have hired <u>Tim Head</u>, an experienced open-source maintainer, to work full-time on the project. This is not  Tim&apos;s first open-source rodeo. He has previously contributed to several high-profile open-source projects, including Project Jupyter. His focus will be reviewing pull requests and coordinating the development of large features. Tim was recently elected as a core maintainer of scikit-learn. His expertise and experience will be invaluable in ensuring the continued growth and success of the project.
-            </p>
-        
-            <p>
-                In summary, NVIDIA&apos;s partnership with the scikit-learn consortium is an important step in our ongoing commitment to support the development and growth of open-source software in the machine learning community. We are excited to work with the foundation and the community of contributors to help advance the capabilities of scikit-learn and accelerate the development of machine learning applications.
-                <strong>AI helped write this blog post! </strong>
-            </p>
-    </section>
-
-    <dl>
-        <dt><strong>Q: What is the scikit-learn consortium?</strong> </dt>
-        <dd>A: The scikit-learn consortium is a collaborative effort involving organizations and individuals dedicated to the development and advancement of the scikit-learn open-source library for machine learning in Python.</dd>
-
-        <dt><strong>Q: How does NVIDIA&apos;s sponsorship benefit scikit-learn?</strong> </dt>
-        <dd>A: NVIDIA&apos;s sponsorship provides financial support, contributes to the long-term sustainability of scikit-learn, and aims to enhance its performance on GPUs. Additionally, NVIDIA has hired an experienced open-source maintainer, Tim Head, to work on the project full-time.</dd>
-
-        <dt><strong>Q: How can the community contribute to scikit-learn?</strong></dt>
-        <dd>A: The scikit-learn community welcomes contributions, including code contributions, bug reports, and documentation enhancements. Visit the official scikit-learn website to learn more about how to get involved and contribute to the project.</dd>
-    </dl>
-    </article>
-</main>
-    
-    <address>
-            <p>Hämeen ammattikorkeakoulu HAMK<br>
-                PL 230 13101<br>
-                Hämeenlinna
-            </p>
-    </address>
-
-    <section>
+            <dl style="margin-top: 50px;">
+                <dt><strong>Q: What is the scikit-learn consortium?</strong> </dt>
+                <dd>A: The scikit-learn consortium is a collaborative effort involving organizations and individuals
+                    dedicated to the development and advancement of the scikit-learn open-source library for machine
+                    learning in Python.
+                </dd>
+                <dt><strong>Q: How does NVIDIA&apos;s sponsorship benefit scikit-learn?</strong> </dt>
+                <dd>A: NVIDIA&apos;s sponsorship provides financial support, contributes to the long-term
+                    sustainability of scikit-learn, and aims to enhance its performance on GPUs. Additionally,
+                    NVIDIA has hired an experienced open-source maintainer, Tim Head, to work on the project
+                    full-time.
+                </dd>
+                <dt><strong>Q: How can the community contribute to scikit-learn?</strong></dt>
+                <dd>A: The scikit-learn community welcomes contributions, including code contributions, bug reports,
+                    and documentation enhancements. Visit the official scikit-learn website to learn more about how
+                    to get involved and contribute to the project.
+                </dd>
+            </dl>
+        </article>
+    </main>
+    <section class="related-links">
         <h2>Related Articles</h2>
         <ul>
             <li><a href="#sponsored-post">NVIDIA&apos;s Sponsorship Announcement</a></li>
             <li><a href="#description-section">Description Section</a></li>
         </ul>
+        <a href="https://blog.scikit-learn.org/funding/nvidia-is-a-new-sponsor/" target="_blank">
+            Click here to visit
+            Original scikit learn website. This website page was used for educational purposes.
+            <h4>The copyright for the articles, images, and videos on this website belongs to the scikit-learn blog.
+            </h4>
+        </a>
         <a href="../images/devenvironment.png" download="devenvironment.png">Download Image File</a>
     </section>
     <footer>
+        <address>
+            <p>Hämeen ammattikorkeakoulu HAMK<br>
+                PL 230 13101<br>
+                Hämeenlinna
+            </p>
+        </address>
         &copy; 2024 Sawsan Abdulbari. All rights reserved.
     </footer>
 </body>
+
 </html>
