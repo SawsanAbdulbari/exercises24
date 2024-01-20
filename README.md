@@ -1,6 +1,6 @@
 # Web Development Course - HAMK 2024
 ## Prof. Deepak KC
-
+### HTML & CSS
 This repository for the Web Development course at HAMK in 2024, led by Professor Deepak KC.
 
 The exercises and projects associated with this course on the dedicated website: [Web Development Course - Exercises](https://sawsanabdulbari.github.io/exercises24/)
